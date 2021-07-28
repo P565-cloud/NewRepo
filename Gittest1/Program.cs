@@ -11,13 +11,10 @@ namespace Gittest1
             Console.WriteLine("H1!");
             Console.WriteLine("Hello Priyanshi!");
             Console.WriteLine("Hello user!");
-            
-           
 
-        private static void Display()
-        {
-            Console.WriteLine("This is method Changed in local file");
-                    }
+
+
+        }
         
 
         

@@ -12,6 +12,11 @@ namespace Gittest1
         {
             Console.WriteLine("Chhanges made in git");
         }
+
+        private static void display1()
+        {
+            Console.WriteLine("Chhanges made in local");
+        }
     }
 }
-}
+

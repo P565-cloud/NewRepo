@@ -10,12 +10,18 @@ namespace Gittest1
             Console.WriteLine("Hello World!");
             Console.WriteLine("H1!");
             Console.WriteLine("Hello Priyanshi!");
+            Console.WriteLine("Hello user!");
+            private static void display()
+            {
+                Console.WriteLine("Chhanges made in git");}
+        }
            
 
         private static void Display()
         {
             Console.WriteLine("This is method Changed in local file");
                     }
+        
 
         
     }

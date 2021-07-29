@@ -6,14 +6,20 @@ namespace Gittest1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("H1!");
-            Console.WriteLine("Hello Priyanshi!");
-            Console.WriteLine("Hello user!");
+            //Console.WriteLine("Hello World!");
+            BankingClass obj = new BankingClass();
+            //Console.WriteLine("Enter your account balance");
+            
+           // BankingClass b = new BankingClass(200);
+            Console.WriteLine("Your account balance is");
+            int accountbalace = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter the amount u want to withdraw");
+            int amount= Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(b.accno);
+            //Console.WriteLine(b.accountbalance);
 
 
-
+            obj.withdrawal(accountbalace,amount);
         }
         
 
